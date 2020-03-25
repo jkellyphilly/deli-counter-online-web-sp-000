@@ -8,5 +8,6 @@ def line(current_line)
   else
     print_line = "The line is currently:"
     current_line.each_with_index {|customer, index| print_line << " #{index+1}. #{customer}"}
+    puts print_line
   end
 end
