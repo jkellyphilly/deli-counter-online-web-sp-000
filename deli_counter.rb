@@ -9,6 +9,7 @@ def line(current_line)
   end
 end
 
+# greets a customer and adds them to the queue
 def take_a_number(current_line, new_customer)
   current_line << new_customer
   puts "Welcome, #{new_customer}. You are number #{current_line.size} in line."
