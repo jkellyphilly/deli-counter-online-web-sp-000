@@ -11,3 +11,8 @@ def line(current_line)
     puts print_line
   end
 end
+
+def take_a_number(current_line, new_customer)
+  current_line << new_customer
+  puts "Welcome, #{new_customer}. You are currently number #{current_line.size} in line."
+end
