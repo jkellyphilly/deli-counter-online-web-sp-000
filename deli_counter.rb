@@ -15,6 +15,7 @@ def take_a_number(current_line, new_customer)
   puts "Welcome, #{new_customer}. You are number #{current_line.size} in line."
 end
 
+# informs the line who is being served and removes that customer from the line
 def now_serving(current_line)
   if current_line.size == 0
     puts "There is nobody waiting to be served!"
