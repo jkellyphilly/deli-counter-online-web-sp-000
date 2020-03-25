@@ -1,6 +1,6 @@
 # Write your code here.
 # beginning of the day, initialize the line as being empty
-katz_deli = []
+#katz_deli = []
 
 def line(current_line)
   if current_line.size == 0
